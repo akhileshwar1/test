@@ -14,7 +14,7 @@ Here c_pr[0] is the list of company 1 and it says that it prefers student 1 over
           let's say that company 1 and student 1 rank each other at the starting index of their lists, the priority score at cell matrix[1][1] would then be                 1+1=2.
 
 * Code: It starts with the outer loop that goes through all the company's lists. For every number coming out of list,
-we find the corresponding student list and see where that particular company ranks for that student. We then add the company's rank + student's rank and store
+we find the corresponding student list and see where that particular company ranks for that student. We then add the company's rank in student's list+ student's rank in company's list and store
 it in matrix[i][j].
 
 
